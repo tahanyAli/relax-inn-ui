@@ -1,0 +1,88 @@
+/* Form Section */
+
+.form {
+    position: absolute;
+    top: 15%;
+    left: 48%;
+    z-index: 100;
+    background-color: #e6d9ce;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    padding: 1.5rem;
+    opacity: 0.9;
+}
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-group {
+    margin: 0.5rem 0;
+    
+}
+.input-group label {
+    padding: 0.5rem 0;
+}
+.input-group .input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+.btns-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    padding: 0.75rem;
+    margin-top: 0.75rem;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 1px;
+    transition: .3s;
+}
+.btn:hover {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
+}
+
+@media screen and (max-width: 999px) {
+    .form {
+        top: 15%;
+        left: 10%;
+
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .form {
+        width: 80%; /* Make the form narrower on smaller screens */
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form {
+        width: 70%;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .input-group {
+        width: 100%;
+        margin: 0.2rem 0;
+    }
+    .input-group label {
+        font-size: 16px;
+
+    }
+    .group {
+        flex-direction: column; /* Stack inputs vertically */
+    }
+}

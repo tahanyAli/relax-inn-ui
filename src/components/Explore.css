@@ -1,0 +1,61 @@
+.container h2 {
+    text-align: center;
+    margin: 1rem 0;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.card {
+    width: 30%;
+    box-shadow: 0px 1px 2px 2px #e4c6c791;
+    border-radius: 3px;
+    
+}
+.card p {
+   font-size: 16px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   padding: 0.3rem;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+           line-clamp: 1;
+   -webkit-box-orient: vertical; 
+}
+.card h3, .card div small {
+    padding: 0.3rem;
+    margin: 0.4rem 0;
+}
+.card img {
+    width: 100%;
+}
+.travelSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.travelContainer ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    border-bottom: 1px solid #666;
+    padding-bottom: 1em;
+}
+.travelContainer ul li {
+    margin: 1em 0;
+}
+@media screen and (max-width: 690px){
+    .cards {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .travelSection {
+        margin: 1em;
+    }
+}
