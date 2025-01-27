@@ -3,8 +3,6 @@ import banner2 from "../components/assets/valeriia.jpg";
 import banner3 from "../components/assets/Hotel.jpg";
 import banner1 from "../components/assets/Hotel3.jpg";
 import Form from "./Form";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import ArrowForward from "@mui/icons-material/ArrowForward";
 import "./ImageSlider.css";
 
 const ImageSlider = () => {
