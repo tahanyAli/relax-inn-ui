@@ -10,9 +10,14 @@
 }
 .card {
     width: 30%;
-    box-shadow: 0px 1px 2px 2px #e4c6c791;
+    box-shadow: 0px 1px 1px 1px #e4c6c791;
     border-radius: 3px;
+    transition: 0.3s;
     
+}
+.card:hover {
+    box-shadow: 0px 1px 2px 2px #e4c6c791;
+    transform: translate(2px, 2px);
 }
 .card p {
    font-size: 16px;

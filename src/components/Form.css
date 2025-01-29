@@ -37,15 +37,16 @@
     justify-content: center;
 }
 .btn {
+    height: 20%;
     padding: 0.75rem;
     margin-top: 0.75rem;
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    width: 50%;
+    width: 30%;
     color: #fff;
     text-align: center;
     cursor: pointer;
-    border-radius: 1px;
+    border-radius: 3px;
     transition: .3s;
 }
 .btn:hover {
