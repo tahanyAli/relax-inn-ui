@@ -20,6 +20,7 @@ const Hotels = ({ hotelsData, handleRoomsData }) => {
                   className="rooms-button"
                   id={item.id}
                   value={item.price ? item.price.price.current : "TBD"}
+                  name={item.name}
                   onClick={(e) => handleRoomsData(e)}
                 >
                   Rooms
